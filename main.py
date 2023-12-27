@@ -21,7 +21,7 @@ parser.add_argument("--dataset_name", default="Toys_and_Games", type=str)
 parser.add_argument("--test_res_log_file", default="./result", help='result log file store dictionary')
 
 # model args
-parser.add_argument("--model_name", default="SIF-SGR", type=str)
+parser.add_argument("--model_name", default="CF-SGR", type=str)
 parser.add_argument("--hidden_size", default=64, type=int, help="hidden size of the transformer model")
 parser.add_argument("--dropout_ratio", default=0.1, type=float)
 parser.add_argument("--max_sequence_length", default=50, type=int)
