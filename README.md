@@ -15,4 +15,8 @@ evaluate.py: model evaluation
 HGCN.py: hypergraph convolutional network(HGCN) structure
 model.py: CF-SGR model and model functions
 ```
+# Reproduce
+```shell script
+python run main.py --dataset_name dataset_name
+```
 
