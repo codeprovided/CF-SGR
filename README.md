@@ -8,11 +8,11 @@ the source code of CF-SGR: Learning Dynamic Consensus for Sequential Group Recom
 - Pandas 1.4.2
 
 # Description
-'''
+```
 Dataset.py: generate the pretrain/user/group dataloader
 EmbeddingLayer.py: common network structures in base model and CF-SGR
 evaluate.py: model evaluation
 HGCN.py: hypergraph convolutional network(HGCN) structure
 model.py: CF-SGR model and model functions
-'''
+```
 
